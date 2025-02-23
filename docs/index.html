@@ -3,46 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Interface</title>
+    <title>Chat Bot Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">ChatGPT</div>
-        <button class="settings-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-settings">
-                <circle cx="12" cy="12" r="3"></circle>
-                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.09a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-            </svg>
-        </button>
+        <div class="logo">ChatBot</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
-    <aside class="sidebar">
-        <ul class="history">
-            <li class="active">Conversation 1</li>
-            <li>Conversation 2</li>
-            <li>Conversation 3</li>
-        </ul>
-    </aside>
-    <main class="chat-area">
-        <div class="message ai">
-            <img src="https://example.com/ai-avatar.png" alt="AI Avatar" class="avatar">
-            <div class="bubble">Hello! How can I assist you today?</div>
+    <section id="hero">
+        <h1>Welcome to ChatBot</h1>
+        <p>Your AI-powered assistant for seamless communication.</p>
+        <button class="cta">Get Started</button>
+    </section>
+    <section id="features">
+        <div class="feature">
+            <img src="https://example.com/feature-icon1.png" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Description of feature 1.</p>
         </div>
-        <div class="message user">
-            <div class="bubble">I need help with my account.</div>
-            <img src="https://example.com/user-avatar.png" alt="User Avatar" class="avatar">
+        <div class="feature">
+            <img src="https://example.com/feature-icon2.png" alt="Feature 2">
+            <h3>Feature 2</h3>
+            <p>Description of feature 2.</p>
         </div>
-        <div class="typing-indicator">AI is typing...</div>
-        <div class="input-area">
-            <input type="text" placeholder="Type a message...">
-            <button class="send-btn">Send</button>
+        <div class="feature">
+            <img src="https://example.com/feature-icon3.png" alt="Feature 3">
+            <h3>Feature 3</h3>
+            <p>Description of feature 3.</p>
         </div>
-    </main>
+    </section>
+    <section id="testimonials">
+        <div class="testimonial">
+            <img src="https://example.com/user1.jpg" alt="User 1">
+            <blockquote>"This chatbot is amazing!"</blockquote>
+        </div>
+        <div class="testimonial">
+            <img src="https://example.com/user2.jpg" alt="User 2">
+            <blockquote>"A must-have tool for communication."</blockquote>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="pricing-card">
+            <h3>Basic Plan</h3>
+            <p>$10/month</p>
+            <button class="cta">Choose Plan</button>
+        </div>
+        <div class="pricing-card">
+            <h3>Pro Plan</h3>
+            <p>$20/month</p>
+            <button class="cta">Choose Plan</button>
+        </div>
+    </section>
     <footer>
-        <ul>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-        </ul>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="contact-info">
+            <p>Contact us at: info@chatbot.com</p>
+        </div>
+        <div class="newsletter">
+            <input type="email" placeholder="Subscribe to our newsletter">
+            <button>Subscribe</button>
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>
